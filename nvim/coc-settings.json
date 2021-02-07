@@ -10,15 +10,16 @@
     "json",
     "javascriptreact"
   ],
-  "eslint.filetypes": [
+  "eslint.validate": [
     "javascript",
     "typescript",
     "typescriptreact",
     "javascriptreact"
   ],
-  "diagnostic.errorSign": "•",
-  "diagnostic.warningSign": "•",
-  "diagnostic.infoSign": "•",
+  "coc.preferences.diagnostic.infoSign": "•",
+  "coc.preferences.diagnostic.errorSign": "x",
+  "coc.preferences.diagnostic.warningSign": "!",
+  "coc.preferences.diagnostic.locationlist": false,
   "prettier.semi": false,
   "prettier.singleQuote": true,
   "prettier.proseWrap": "always"
