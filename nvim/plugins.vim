@@ -25,7 +25,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'alvan/vim-closetag'
 
 " Intellisense Engine
-Plug 'neoclide/coc.nvim', {'tag': '*', 'do': { -> coc#util#install()}}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Tmux/Neovim movement integration
 Plug 'christoomey/vim-tmux-navigator'
@@ -63,9 +63,6 @@ Plug 'mxw/vim-jsx'
 Plug 'heavenshell/vim-jsdoc'
 
 " === Syntax Highlighting === "
-" Styled Components
-Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
-
 " JavaScript syntax highlighting and improved indentation.
 Plug 'pangloss/vim-javascript'
 
