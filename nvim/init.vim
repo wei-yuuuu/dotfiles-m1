@@ -315,16 +315,6 @@ set autoread
 " Enable line numbers
 set number
 
-" Set backups
-if has('persistent_undo')
-  set undofile
-  set undolevels=3000
-  set undoreload=10000
-endif
-set backupdir=~/.local/share/nvim/backup " Don't put backups in current dir
-set backup
-set noswapfile
-
 " Reload icons after init source
 if exists('g:loaded_webdevicons')
   call webdevicons#refresh()
@@ -336,4 +326,4 @@ if has("autocmd")
 endif
 
 " Delete whitespace when saving files
-autocmd BufWritePre * :%s/\s\+$//e<
+autocmd BufWritePre * :%s/\s\+$//e
