@@ -33,9 +33,6 @@ Plug 'christoomey/vim-tmux-navigator'
 " Fuzzy finding
 Plug 'junegunn/fzf'
 
-" Move lines
-Plug 'matze/vim-move'
-
 " Commentary
 Plug 'tpope/vim-commentary'
 

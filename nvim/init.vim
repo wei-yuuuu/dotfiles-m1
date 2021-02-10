@@ -272,6 +272,10 @@ nnoremap <silent> <leader>dj <Plug>(coc-implementation)
 nnoremap <leader>r :%s///<left><left>
 nnoremap <silent> <leader>/ :nohlsearch<CR>
 
+" Move line up and down in normal mode and visual mode
+noremap ∆ <Esc>:m .+1<CR>
+noremap ˚ <Esc>:m .-2<CR>
+
 " === vim-multiple-cursors ==="
 let g:multi_cursor_use_default_mapping = 0
 let g:multi_cursor_start_word_key      = '<C-d>'
