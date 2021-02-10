@@ -48,9 +48,6 @@ Plug 'Yggdroot/indentLine'
 " Quoting / Parenthesizing made simple
 Plug 'tpope/vim-surround'
 
-" A replacement for 99% of the uses of grep
-Plug 'mileszs/ack.vim'
-
 " === Git Plugins === "
 " Show a diff using Vim its sign column
 Plug 'mhinz/vim-signify'
@@ -58,9 +55,6 @@ Plug 'mhinz/vim-signify'
 " === Javascript Plugins === "
 " ReactJS JSX syntax highlighting
 Plug 'mxw/vim-jsx'
-
-" Generate JSDoc commands based on function signature
-Plug 'heavenshell/vim-jsdoc'
 
 " === Syntax Highlighting === "
 " JavaScript syntax highlighting and improved indentation.

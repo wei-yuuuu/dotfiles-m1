@@ -143,10 +143,6 @@ let g:lightline = {
 " Enable echodoc on startup
 let g:echodoc#enable_at_startup = 1
 
-" === vim-javascript === "
-" Enable syntax highlighting for JSDoc
-let g:javascript_plugin_jsdoc = 1
-
 " === vim-jsx === "
 " Highlight jsx syntax even in non .jsx files
 let g:jsx_ext_required = 0
@@ -279,11 +275,6 @@ nnoremap <silent> <leader>dj <Plug>(coc-implementation)
 "   <leader>/ - Claer highlighted search terms while preserving history
 nnoremap <leader>r :%s///<left><left>
 nnoremap <silent> <leader>/ :nohlsearch<CR>
-nnoremap <Leader>a :Ack<Space>
-
-" === vim-jsdoc shortcuts ==="
-" Generate jsdoc for function under cursor
-nnoremap <leader>z :JsDoc<CR>
 
 " === vim-multiple-cursors ==="
 let g:multi_cursor_use_default_mapping = 0
