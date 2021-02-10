@@ -275,6 +275,8 @@ nnoremap <silent> <leader>/ :nohlsearch<CR>
 " Move line up and down in normal mode and visual mode
 noremap ∆ <Esc>:m .+1<CR>
 noremap ˚ <Esc>:m .-2<CR>
+vnoremap ∆ :m '>+1<CR>gv=gv
+vnoremap ˚ :m '<-2<CR>gv=gv
 
 " === vim-multiple-cursors ==="
 let g:multi_cursor_use_default_mapping = 0
