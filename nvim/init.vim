@@ -113,7 +113,7 @@ let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 1
 
 " Automatically close NERDTree after a file has been opened
-let NERDTreeQuitOnOpen=1
+let NERDTreeQuitOnOpen = 1
 
 " Custom icons for expandable/expanded directories
 let g:NERDTreeDirArrowExpandable = '⬏'
@@ -139,10 +139,6 @@ let g:lightline = {
       \ 'subseparator': { 'left': '', 'right': '' }
       \ }
 
-" === echodoc === "
-" Enable echodoc on startup
-let g:echodoc#enable_at_startup = 1
-
 " === vim-jsx === "
 " Highlight jsx syntax even in non .jsx files
 let g:jsx_ext_required = 0
@@ -151,7 +147,7 @@ let g:jsx_ext_required = 0
 let g:signify_sign_delete = '-'
 
 " === vim-closetag === "
-let g:closetag_filenames = "*.html,*.jsx,*.js"
+let g:closetag_filenames = "*.html,*.jsx,*.js,*.tsx,*.ts"
 let g:closetag_xhtml_filenames = '*.jsx'
 let g:closetag_emptyTags_caseSensitive = 1
 let g:closetag_shortcut = '>'
