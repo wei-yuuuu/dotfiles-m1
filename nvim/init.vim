@@ -278,6 +278,12 @@ noremap ˚ <Esc>:m .-2<CR>
 vnoremap ∆ :m '>+1<CR>gv=gv
 vnoremap ˚ :m '<-2<CR>gv=gv
 
+" Move the cursor while in insert mode without using the arrow keys
+imap <C-h> <C-o>h
+imap <C-j> <C-o>j
+imap <C-k> <C-o>k
+imap <C-l> <C-o>l
+
 " === vim-multiple-cursors ==="
 let g:multi_cursor_use_default_mapping = 0
 let g:multi_cursor_start_word_key      = '<C-d>'
