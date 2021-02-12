@@ -65,6 +65,9 @@ set foldlevel=99
 " or 'The only match'
 set shortmess+=c
 
+" Automatically wrap left and right
+set whichwrap+=<,>,h,l,[,]
+
 " ============================================================================ "
 " ===                           PLUGIN SETUP                               === "
 " ============================================================================ "
