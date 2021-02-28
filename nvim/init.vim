@@ -256,8 +256,8 @@ endfunction
 nnoremap <leader>p :FZF<CR>
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
-  \ 'ctrl-x': 'split',
-  \ 'ctrl-v': 'vsplit' }
+  \ 'ctrl-i': 'split',
+  \ 'ctrl-s': 'vsplit' }
 
 " === Nerdtree shorcuts === "
 " Toggle NERDTree on/off
