@@ -5,7 +5,14 @@
 | <kbd>prefix</kbd> <kbd>-</kbd> | split pane  | <kbd>prefix</kbd> <kbd>&</kbd> | close current window |
 | <kbd>prefix</kbd> <kbd>\|</kbd> </kbd> | vsplit pane | <kbd>prefix</kbd> <kbd>p</kbd> | previous window | 
 | <kbd>prefix</kbd> <kbd>x</kbd> | close current pane | <kbd>prefix</kbd> <kbd>n</kbd> | next window | 
+| | **tpm** | | **tmux-resurrect** | 
+| <kbd>ctrl</kbd> <kbd>I</kbd> | install plugins | <kbd>prefix</kbd> <kbd>s</kbd> | save | 
+| <kbd>prefix</kbd> <kbd>U</kbd> | update plugins  | <kbd>prefix</kbd> <kbd>r</kbd> | restore  | 
 
+To remove plugins not on the plugin list:
+```zsh
+~/.tmux/plugins/tpm/bin/clean_plugins
+```
 
 ## fzf
 | shortcut | description |
