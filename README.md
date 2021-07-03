@@ -1,24 +1,24 @@
 ## tmux
 | shortcut | description | shortcut | description |
 |----------|-------------|----------|-------------|
-| <kbd>ctrl + a</kbd> | prefix | <kbd>ctrl + a + c</kbd> | create window |
-| <kbd>ctrl + a + -</kbd> | split pane  | <kbd>ctrl + a + &</kbd> | close current window |
-| <kbd>ctrl + a + \| </kbd> | vsplit pane | <kbd>ctrl + a + p</kbd> | previous window | 
-| <kbd>ctrl + a + x</kbd> | close current pane | <kbd>ctrl + a + n</kbd> | next window | 
+| <kbd>ctrl</kbd> <kbd>a</kbd> | prefix | <kbd>prefix</kbd> <kbd>c</kbd> | create window |
+| <kbd>prefix</kbd> <kbd>-</kbd> | split pane  | <kbd>prefix</kbd> <kbd>&</kbd> | close current window |
+| <kbd>prefix</kbd> <kbd>\|</kbd> </kbd> | vsplit pane | <kbd>prefix</kbd> <kbd>p</kbd> | previous window | 
+| <kbd>prefix</kbd> <kbd>x</kbd> | close current pane | <kbd>prefix</kbd> <kbd>n</kbd> | next window | 
 
 
 ## fzf
 | shortcut | description |
 |----------|-------------|
-| <kbd>space + p</kbd> | toggle |
-| <kbd>ctrl + t</kbd> | tab split |
-| <kbd>ctrl + i</kbd> | split |
-| <kbd>ctrl + s</kbd> | vsplit |
+| <kbd>space</kbd> <kbd>p</kbd> | toggle |
+| <kbd>ctrl</kbd> <kbd>t</kbd> | tab split |
+| <kbd>ctrl</kbd> <kbd>i</kbd> | split |
+| <kbd>ctrl</kbd> <kbd>s</kbd> | vsplit |
 ## nerdtree 
 | shortcut | description |
 |----------|-------------|
-| <kbd>ctrl + n</kbd> | toggle |
-| <kbd>shift + ?</kbd> | help |
+| <kbd>ctrl</kbd> <kbd>n</kbd> | toggle |
+| <kbd>shift</kbd> <kbd>?</kbd> | help |
 | <kbd>m</kbd> | insert/delete files |
 | <kbd>i</kbd> | split |
 | <kbd>s</kbd> | vsplit |
