@@ -10,6 +10,11 @@
 | <kbd>ctrl</kbd> <kbd>I</kbd> | install plugins | <kbd>prefix</kbd> <kbd>s</kbd> | save | 
 | <kbd>prefix</kbd> <kbd>U</kbd> | update plugins  | <kbd>prefix</kbd> <kbd>r</kbd> | restore  | 
 
+Source the conf file manually 
+```zsh
+tmux source-file ~/.tmux.conf
+```
+
 [Managing plugins via the command line](https://github.com/tmux-plugins/tpm/blob/master/docs/managing_plugins_via_cmd_line.md)
 * remove plugins not on the plugin list
 ```zsh
