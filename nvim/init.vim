@@ -323,3 +323,6 @@ endif
 
 " Delete whitespace when saving files
 autocmd BufWritePre * :%s/\s\+$//e
+
+" Don't remember the cursor position in git commits
+au FileType gitcommit au! BufEnter COMMIT_EDITMSG call setpos('.', [0, 1, 1, 0])
