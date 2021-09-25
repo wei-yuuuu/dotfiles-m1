@@ -48,3 +48,12 @@ tmux source-file ~/.tmux.conf
 ```zsh
 :CocInstall coc-eslint
 ```
+
+## Symbolic Links
+```zsh
+ln -sf ~/Projects/dotfiles/nvim/init.vim ~/.config/nvim/init.vim
+ln -sf ~/Projects/dotfiles/nvim/plugins.vim ~/.config/nvim/plugins.vim
+ln -sf ~/Projects/dotfiles/nvim/coc-settings.json ~/.config/nvim/coc-settings.json
+ln -sf ~/Projects/dotfiles/zsh/.zshrc ~/.zshrc
+ln -sf ~/Projects/dotfiles/tmux/.tmux.conf ~/.tmux.conf
+```
