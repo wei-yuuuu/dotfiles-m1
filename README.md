@@ -1,3 +1,9 @@
+## Reload `.vim` without restart
+```zsh
+:so %
+:source %
+```
+
 ## tmux
 | shortcut | description | shortcut | description |
 |----------|-------------|----------|-------------|
