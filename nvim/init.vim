@@ -29,13 +29,13 @@ nnoremap <leader>w :tabclose<CR>
 nnoremap <leader>l :tabnext<CR>
 nnoremap <leader>h :tabprev<CR>
 
-" save file
+" Save file
 nnoremap <leader>s :w<CR>
 
 " Indentation amount for < and > commands.
 set shiftwidth=2
 
-" wrap long lines
+" Wrap long lines
 set wrap
 set linebreak
 
@@ -60,9 +60,7 @@ set foldmethod=indent
 set foldlevel=99
 
 " === Completion Settings === "
-
-" Don't give completion messages like 'match 1 of 2'
-" or 'The only match'
+" Don't give completion messages like 'match 1 of 2' or 'The only match'
 set shortmess+=c
 
 " Automatically wrap left and right
@@ -73,7 +71,7 @@ set whichwrap+=<,>,h,l,[,]
 " ============================================================================ "
 
 " === Coc.nvim === "
-" use <tab> for trigger completion and navigate to next complete item
+" Use <tab> for trigger completion and navigate to next complete item
 function! s:check_back_space() abort
   let col = col('.') - 1
   return !col || getline('.')[col - 1]  =~ '\s'
@@ -93,8 +91,8 @@ function! CheckBackspace() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-" Use K to show documentation in preview window.
-nnoremap <silent> K :call ShowDocumentation()<CR>
+" Use gh to show documentation in preview window.
+nnoremap <silent> gh :call ShowDocumentation()<CR>
 
 function! ShowDocumentation()
   if CocAction('hasProvider', 'hover')
@@ -115,9 +113,6 @@ autocmd! CompleteDone * if pumvisible() == 0 | pclose | endif
 let g:neosnippet#enable_conceal_markers = 0
 
 " === NERDTree === "
-" Auto-open NERDTree in vim
-" au VimEnter *  NERDTree
-
 " Show hidden files/directories
 let g:NERDTreeShowHidden = 1
 
@@ -175,7 +170,6 @@ let g:coc_node_path = '/usr/local/bin/node'
 " ============================================================================ "
 " ===                                UI                                    === "
 " ============================================================================ "
-
 " Enable true color support
 set termguicolors
 
@@ -187,10 +181,8 @@ catch
   colorscheme slate
 endtry
 
-" Add custom highlights in method that is executed every time a
-" colorscheme is sourced
-" See https://gist.github.com/romainl/379904f91fa40533175dfaec4c833f2f for
-" details
+" Add custom highlights in method that is executed every time a colorscheme is sourced
+" See https://gist.github.com/romainl/379904f91fa40533175dfaec4c833f2f for details
 function! MyHighlights() abort
   " Hightlight trailing whitespace
   highlight Trail ctermbg=red guibg=red
@@ -284,17 +276,26 @@ nnoremap <silent> <leader>dj <Plug>(coc-implementation)
 nnoremap <leader>r :%s///<left><left>
 nnoremap <silent> <leader>/ :nohlsearch<CR>
 
+" === vim-multiple-cursors ==="
+let g:multi_cursor_use_default_mapping = 0
+let g:multi_cursor_start_word_key      = '<C-d>'
+let g:multi_cursor_next_key            = '<C-d>'
+let g:multi_cursor_quit_key            = '<Esc>'
+
 " Move line up and down in normal mode and visual mode
 noremap ∆ <Esc>:m .+1<CR>
 noremap ˚ <Esc>:m .-2<CR>
 vnoremap ∆ :m '>+1<CR>gv=gv
 vnoremap ˚ :m '<-2<CR>gv=gv
 
-" === vim-multiple-cursors ==="
-let g:multi_cursor_use_default_mapping = 0
-let g:multi_cursor_start_word_key      = '<C-d>'
-let g:multi_cursor_next_key            = '<C-d>'
-let g:multi_cursor_quit_key            = '<Esc>'
+" Specify the black hole register to make d really delete
+nnoremap d "_d
+nnoremap D "_D
+nnoremap dd "_dd
+
+vnoremap d "_d
+vnoremap D "_D
+vnoremap dd "_dd
 
 " ============================================================================ "
 " ===                                 MISC.                                === "
