@@ -54,6 +54,10 @@ tmux source-file ~/.tmux.conf
 ```zsh
 :CocInstall coc-eslint
 ```
+* [coc-tsserver](https://github.com/neoclide/coc-tsserver)
+```zsh
+:CocInstall coc-tsserver
+```
 
 ## Symbolic Links
 ```zsh
