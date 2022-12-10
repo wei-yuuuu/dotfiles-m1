@@ -1,6 +1,7 @@
 {
   "suggest.echodocSupport": true,
   "suggest.maxCompleteItemCount": 20,
+  "suggest.noselect": true,
   "tsserver.trace.server": "verbose",
   "coc.preferences.colorSupport": false,
   "coc.preferences.formatOnSaveFiletypes": [
