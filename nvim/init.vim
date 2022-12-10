@@ -91,6 +91,9 @@ function! CheckBackspace() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
+" GoTo code navigation.
+nmap <silent> gd <Plug>(coc-definition)
+
 " Use gh to show documentation in preview window.
 nnoremap <silent> gh :call ShowDocumentation()<CR>
 
