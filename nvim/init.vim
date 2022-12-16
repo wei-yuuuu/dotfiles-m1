@@ -291,15 +291,6 @@ noremap ˚ <Esc>:m .-2<CR>
 vnoremap ∆ :m '>+1<CR>gv=gv
 vnoremap ˚ :m '<-2<CR>gv=gv
 
-" Specify the black hole register to make d really delete
-nnoremap d "_d
-nnoremap D "_D
-nnoremap dd "_dd
-
-vnoremap d "_d
-vnoremap D "_D
-vnoremap dd "_dd
-
 " ============================================================================ "
 " ===                                 MISC.                                === "
 " ============================================================================ "
