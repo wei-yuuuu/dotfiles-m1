@@ -1,5 +1,6 @@
-## iTerm2 Color Scheme
-[hybrid](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Hybrid.itermcolors)
+## iTerm2
+* [Hybrid Color Scheme](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Hybrid.itermcolors)
+* [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/HackNerdFont-Regular.ttf)
 
 ## Remove macOS Terminal Last Login Message
 ```zsh
