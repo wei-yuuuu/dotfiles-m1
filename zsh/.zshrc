@@ -30,6 +30,11 @@ export NVIM_TUI_ENABLE_TRUE_COLOR=1
 # Set Spaceship as prompt
 SPACESHIP_CHAR_SYMBOL='𝝺 '
 SPACESHIP_PACKAGE_SHOW=false
+SPACESHIP_DOCKER_SHOW=false
 SPACESHIP_NODE_SHOW=false
 SPACESHIP_GIT_STATUS_STASHED=''
 SPACESHIP_EXEC_TIME_COLOR='cyan'
+
+# This loads nvm
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
