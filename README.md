@@ -1,6 +1,11 @@
 ## iTerm2 Color Scheme
 [hybrid](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Hybrid.itermcolors)
 
+## Remove macOS Terminal Last Login Message
+```zsh
+touch .hushlogin
+```
+
 ## Install zsh plugins
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
