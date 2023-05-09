@@ -2,6 +2,17 @@
 * [Hybrid Color Scheme](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Hybrid.itermcolors)
 * [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/HackNerdFont-Regular.ttf)
 
+## macOS softwares
+[MiddleClick-Ventura](https://github.com/artginzburg/MiddleClick-Ventura)
+```zsh
+brew install --cask --no-quarantine middleclick
+```
+[SwitchKey](https://github.com/itsuhane/SwitchKey)
+```zsh
+brew install --cask switchkey
+```
+[shortcuts](https://github.com/siong1987/shortcuts)
+
 ## Remove macOS Terminal Last Login Message
 ```zsh
 touch .hushlogin
