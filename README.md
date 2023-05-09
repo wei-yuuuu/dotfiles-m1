@@ -6,6 +6,11 @@
 touch .hushlogin
 ```
 
+## Install vim plugins
+```
+:PlugInstall
+```
+
 ## Install zsh plugins
 ```
 git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
