@@ -19,7 +19,7 @@ touch .hushlogin
 ```
 
 ## Install vim plugins
-```
+```zsh
 :PlugInstall
 ```
 
@@ -33,8 +33,13 @@ ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/the
 source ~/.zshrc
 ```
 
-## Install nvm
+## Git alias in oh-my-zsh
+```zsh
+v ~/.oh-my-zsh/plugins/git/git.plugin.zsh
 ```
+
+## Install nvm
+```zsh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 ```
 
