@@ -36,6 +36,9 @@ source ~/.zshrc
 ## Git alias in oh-my-zsh
 ```zsh
 v ~/.oh-my-zsh/plugins/git/git.plugin.zsh
+
+alias gc='git commit'
+alias gs='git status'
 ```
 
 ## Install nvm
