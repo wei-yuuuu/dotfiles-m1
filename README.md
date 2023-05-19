@@ -2,6 +2,9 @@
 * [Hybrid Color Scheme](https://github.com/mbadolato/iTerm2-Color-Schemes/blob/master/schemes/Hybrid.itermcolors)
 * [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/blob/master/patched-fonts/Hack/Regular/HackNerdFont-Regular.ttf)
 
+## VSCode
+* [FiraCode](https://github.com/tonsky/FiraCode)
+
 ## macOS softwares
 [MiddleClick-Ventura](https://github.com/artginzburg/MiddleClick-Ventura)
 ```zsh
