@@ -65,7 +65,8 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | b
 | <kbd>prefix</kbd> <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd> | resize pane | | | 
 | | **tpm** | | **tmux-resurrect** | 
 | <kbd>prefix</kbd> <kbd>I</kbd> | install plugins | <kbd>prefix</kbd> <kbd>ctrl</kbd> <kbd>s</kbd> | save | 
-| <kbd>prefix</kbd> <kbd>U</kbd> | update plugins  | <kbd>prefix</kbd> <kbd>ctrl</kbd> <kbd>r</kbd> | restore  | 
+| <kbd>prefix</kbd> <kbd>U</kbd> | update plugins  | <kbd>prefix</kbd> <kbd>ctrl</kbd> <kbd>r</kbd> | restore  |
+| <kbd>prefix</kbd> <kbd>z</kbd> | zoom into full window | <kbd>prefix</kbd> <kbd>[</kbd> + <kbd>V</kbd> + <kbd>y</kbd> | copy paste |
 
 ## Install [tpm](https://github.com/tmux-plugins/tpm)
 ```zsh
