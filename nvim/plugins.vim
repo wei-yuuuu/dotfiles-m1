@@ -27,9 +27,6 @@ Plug 'alvan/vim-closetag'
 " Intellisense Engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Tmux/Neovim movement integration
-Plug 'christoomey/vim-tmux-navigator'
-
 " Fuzzy finding
 Plug 'junegunn/fzf'
 

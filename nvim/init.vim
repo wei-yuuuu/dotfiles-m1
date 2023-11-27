@@ -26,8 +26,8 @@ set softtabstop=2
 
 nnoremap <leader>t :tabnew<CR>
 nnoremap <leader>w :tabclose<CR>
-nnoremap <leader>l :tabnext<CR>
-nnoremap <leader>h :tabprev<CR>
+nnoremap <C-l> :tabnext<CR>
+nnoremap <C-h> :tabprev<CR>
 
 " Save file
 nnoremap <leader>s :w<CR>
