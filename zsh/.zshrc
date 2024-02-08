@@ -3,9 +3,6 @@ export PATH=/opt/homebrew/bin:$PATH
 export ZSH=$HOME/.oh-my-zsh
 export LANG=en_US.UTF-8
 
-# Theme
-ZSH_THEME="spaceship"
-
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 plugins=(git node brew tmux zsh-autosuggestions)
 
@@ -27,12 +24,9 @@ source $ZSH/oh-my-zsh.sh
 # Enabled true color support for terminals
 export NVIM_TUI_ENABLE_TRUE_COLOR=1
 
-# Set Spaceship as prompt
-SPACESHIP_PACKAGE_SHOW=false
-SPACESHIP_DOCKER_SHOW=false
-SPACESHIP_EXEC_TIME_SHOW=false
-SPACESHIP_NODE_SHOW=false
-
 # This loads nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+# Set up shell to use Starship
+eval "$(starship init zsh)"
