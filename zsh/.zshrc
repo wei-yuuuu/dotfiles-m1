@@ -1,5 +1,6 @@
 # Path to your oh-my-zsh installation
 export PATH=/opt/homebrew/bin:$PATH
+export PATH="/opt/homebrew/sbin:$PATH"
 export ZSH=$HOME/.oh-my-zsh
 export LANG=en_US.UTF-8
 
