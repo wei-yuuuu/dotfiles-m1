@@ -81,13 +81,9 @@ tmux source ~/.tmux.conf
 ```zsh
 ~/.tmux/plugins/tpm/bin/clean_plugins
 ```
-## fzf
-| shortcut | description |
-|----------|-------------|
-| <kbd>space</kbd> <kbd>p</kbd> | toggle |
-| <kbd>ctrl</kbd> <kbd>t</kbd> | tab split |
-| <kbd>ctrl</kbd> <kbd>i</kbd> | split |
-| <kbd>ctrl</kbd> <kbd>s</kbd> | vsplit |
+## telescope.nvim
+* [default-mappings](https://github.com/nvim-telescope/telescope.nvim?tab=readme-ov-file#default-mappings)
+
 ## nerdtree 
 | shortcut | description |
 |----------|-------------|
