@@ -92,6 +92,7 @@ tmux source ~/.tmux.conf
 | <kbd>m</kbd> | insert/delete files |
 | <kbd>i</kbd> | split |
 | <kbd>s</kbd> | vsplit |
+| <kbd>t</kbd> | new tab |
 ## Install coc
 * [coc-pairs](https://github.com/neoclide/coc-pairs)
 ```zsh
