@@ -27,8 +27,9 @@ Plug 'alvan/vim-closetag'
 " Intellisense Engine
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
-" Fuzzy finding
-Plug 'junegunn/fzf'
+" Fuzzy finder
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim', {'tag': '0.1.8'}
 
 " Commentary
 Plug 'tpope/vim-commentary'

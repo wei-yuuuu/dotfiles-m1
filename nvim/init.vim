@@ -168,7 +168,7 @@ let g:closetag_regions =  {
 \ }
 
 " === coc-node === "
-let g:coc_node_path = '/usr/local/bin/node'
+let g:coc_node_path = '~/.nvm/versions/node/v20.18.0/bin/node'
 
 " ============================================================================ "
 " ===                                UI                                    === "
@@ -256,12 +256,8 @@ endfunction
 " ============================================================================ "
 " ===                             KEY MAPPINGS                             === "
 " ============================================================================ "
-" FZF shorcuts
-nnoremap <leader>p :FZF<CR>
-let g:fzf_action = {
-  \ 'ctrl-t': 'tab split',
-  \ 'ctrl-i': 'split',
-  \ 'ctrl-s': 'vsplit' }
+" Find files using Telescope command-line sugar
+nnoremap <leader>p <cmd>Telescope find_files<cr>
 
 " === Nerdtree shorcuts === "
 " Toggle NERDTree on/off
