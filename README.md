@@ -32,6 +32,40 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/p
 source ~/.zshrc
 ```
 
+## gitconfig
+- [How Core Git Developers Configure Git](https://blog.gitbutler.com/how-git-core-devs-configure-git)
+```
+[commit]
+	gpgsign = true
+[column]
+	ui = auto
+[branch]
+	sort = -committerdate
+[tag]
+	sort = version:refname
+[diff]
+	algorithm = histogram
+	colorMoved = plain
+	mnemonicPrefix = true
+	renames = true
+[push]
+	autoSetupRemote = true
+	followTags = true
+[fetch]
+	prune = true
+	pruneTags = true
+	all = true
+[help]
+	autocorrect = prompt
+[rerere]
+	enabled = true
+	autoupdate = true
+[rebase]
+	autoSquash = true
+	autoStash = true
+	updateRefs = true
+```
+
 ## Git alias in oh-my-zsh
 ```zsh
 v ~/.oh-my-zsh/plugins/git/git.plugin.zsh
