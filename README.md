@@ -64,8 +64,6 @@ source ~/.zshrc
 	autoSquash = true
 	autoStash = true
 	updateRefs = true
-[pull]
-        rebase = true
 ```
 
 ## Git alias in oh-my-zsh
