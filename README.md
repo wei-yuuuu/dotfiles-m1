@@ -60,6 +60,9 @@ touch .hushlogin
 	updateRefs = true
 ```
 
+## lazygit
+- [keybindings](https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md#lazygit-keybindings)
+
 ## Install nvm
 ```zsh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
