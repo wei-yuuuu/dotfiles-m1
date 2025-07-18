@@ -62,11 +62,15 @@ touch .hushlogin
 
 ## lazygit
 - [keybindings](https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md#lazygit-keybindings)
-
-## Install nvm
+- [default-config](https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md#default)
 ```zsh
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+v ~/Library/Application\ Support/lazygit/config.yml
 ```
+```yml
+promptToReturnFromSubprocess: false
+```
+
+## [Install nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)
 
 ## Reload config without restart
 ```zsh
