@@ -26,12 +26,6 @@ touch .hushlogin
 :PlugInstall
 ```
 
-## Install zsh plugins
-```
-git clone https://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
-source ~/.zshrc
-```
-
 ## gitconfig
 - [How Core Git Developers Configure Git](https://blog.gitbutler.com/how-git-core-devs-configure-git)
 ```
@@ -66,20 +60,12 @@ source ~/.zshrc
 	updateRefs = true
 ```
 
-## Git alias in oh-my-zsh
-```zsh
-v ~/.oh-my-zsh/plugins/git/git.plugin.zsh
-
-alias gc='git commit'
-alias gs='git status'
-```
-
 ## Install nvm
 ```zsh
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 ```
 
-## Reload `.vim` without restart
+## Reload config without restart
 ```zsh
 :so %
 :source %
@@ -90,11 +76,11 @@ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | b
 |----------|-------------|----------|-------------|
 | <kbd>ctrl</kbd> <kbd>a</kbd> | prefix | <kbd>prefix</kbd> <kbd>c</kbd> | create window |
 | <kbd>prefix</kbd> <kbd>-</kbd> | split pane  | <kbd>prefix</kbd> <kbd>&</kbd> | close current window |
-| <kbd>prefix</kbd> <kbd>\|</kbd> </kbd> | vsplit pane | <kbd>prefix</kbd> <kbd>p</kbd> | previous window | 
-| <kbd>prefix</kbd> <kbd>x</kbd> | close current pane | <kbd>prefix</kbd> <kbd>n</kbd> | next window | 
-| <kbd>prefix</kbd> <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd> | resize pane | | | 
-| | **tpm** | | **tmux-resurrect** | 
-| <kbd>prefix</kbd> <kbd>I</kbd> | install plugins | <kbd>prefix</kbd> <kbd>ctrl</kbd> <kbd>s</kbd> | save | 
+| <kbd>prefix</kbd> <kbd>\|</kbd> </kbd> | vsplit pane | <kbd>prefix</kbd> <kbd>p</kbd> | previous window |
+| <kbd>prefix</kbd> <kbd>x</kbd> | close current pane | <kbd>prefix</kbd> <kbd>n</kbd> | next window |
+| <kbd>prefix</kbd> <kbd>H</kbd> <kbd>J</kbd> <kbd>K</kbd> <kbd>L</kbd> | resize pane | | |
+| | **tpm** | | **tmux-resurrect** |
+| <kbd>prefix</kbd> <kbd>I</kbd> | install plugins | <kbd>prefix</kbd> <kbd>ctrl</kbd> <kbd>s</kbd> | save |
 | <kbd>prefix</kbd> <kbd>U</kbd> | update plugins  | <kbd>prefix</kbd> <kbd>ctrl</kbd> <kbd>r</kbd> | restore  |
 | <kbd>prefix</kbd> <kbd>z</kbd> | zoom into full window | <kbd>prefix</kbd> <kbd>[</kbd> + <kbd>V</kbd> + <kbd>y</kbd> | copy paste |
 
@@ -105,7 +91,7 @@ git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 Press prefix + I to fetch the plugin
 ```
 
-Source the conf file manually 
+Source the conf file manually
 ```zsh
 tmux source ~/.tmux.conf
 ```
@@ -118,7 +104,7 @@ tmux source ~/.tmux.conf
 ## telescope.nvim
 * [default-mappings](https://github.com/nvim-telescope/telescope.nvim?tab=readme-ov-file#default-mappings)
 
-## nerdtree 
+## nerdtree
 | shortcut | description |
 |----------|-------------|
 | <kbd>ctrl</kbd> <kbd>n</kbd> | toggle |
@@ -127,6 +113,7 @@ tmux source ~/.tmux.conf
 | <kbd>i</kbd> | split |
 | <kbd>s</kbd> | vsplit |
 | <kbd>t</kbd> | new tab |
+
 ## Install coc
 * [coc-pairs](https://github.com/neoclide/coc-pairs)
 ```zsh
