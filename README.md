@@ -61,13 +61,22 @@ touch .hushlogin
 ```
 
 ## lazygit
-- [keybindings](https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md#lazygit-keybindings)
-- [default-config](https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md#default)
+- [Keybindings](https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md#lazygit-keybindings)
+- [Default Config](https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md#default)
+- [Custom Pagers](https://github.com/jesseduffield/lazygit/blob/master/docs/Custom_Pagers.md)
 ```zsh
+brew install git-delta
 v ~/Library/Application\ Support/lazygit/config.yml
 ```
 ```yml
-promptToReturnFromSubprocess: false
+gui:
+  promptToReturnFromSubprocess: false
+  sidePanelWidth: 0.15
+
+git:
+  paging:
+    colorArg: always
+    pager: delta --paging=never --line-numbers --side-by-side --width=variable
 ```
 
 ## [Install nvm](https://github.com/nvm-sh/nvm?tab=readme-ov-file#install--update-script)
