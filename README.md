@@ -70,8 +70,9 @@ brew install git-delta
 v ~/Library/Application\ Support/lazygit/config.yml
 ```
 ```yml
+promptToReturnFromSubprocess: false
+
 gui:
-  promptToReturnFromSubprocess: false
   sidePanelWidth: 0.15
 
 git:
