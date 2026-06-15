@@ -64,6 +64,7 @@ touch .hushlogin
 - [Keybindings](https://github.com/jesseduffield/lazygit/blob/master/docs/keybindings/Keybindings_en.md#lazygit-keybindings)
 - [Default Config](https://github.com/jesseduffield/lazygit/blob/master/docs/Config.md#default)
 - [Custom Pagers](https://github.com/jesseduffield/lazygit/blob/master/docs/Custom_Pagers.md)
+- [git-delta](https://github.com/dandavison/delta)
 ```zsh
 brew install git-delta
 v ~/Library/Application\ Support/lazygit/config.yml
